@@ -876,9 +876,7 @@ footer{
     padding-top: 90px;
     background-color: black;
 }
-footer span{
-    color: #fff;
-}
+
 footer h1{
     color: #fff;
 }
@@ -925,11 +923,11 @@ section a:hover{
     text-decoration: none;
     color: black;
 }
-footer .title-1 span a{
+footer .title-1 .span-1 a{
     color: #fff;
     text-decoration: none;
 }
-footer .title-1 span a:hover{
+footer .title-1 .span-1 a:hover{
     color: #fff;
     text-decoration: none;
 }
@@ -1044,6 +1042,9 @@ footer .title-1 span a:hover{
   }
   .copy-2{
       display: none;
+  }
+  .logo-bot span{
+      color: #fff;
   }
   .hr-bot{
       display: none;
