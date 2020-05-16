@@ -62,11 +62,7 @@ header{
 .flex-contact{
     display: flex;
 }
-.flex-contact ul{
-    margin: 0;
-    padding: 0;
-    justify-items: center;
-}
+
 .quetion{
     flex: 2;
     
@@ -94,6 +90,10 @@ header{
     font-size: 13px;
 }
 /*nav*/
+.bg-custom{
+    background-color: #fff;
+}
+
 .navbar-collapse{
     flex-grow: 0 !important;
     padding: 0px 10px;
@@ -184,7 +184,7 @@ nav .container{
     font-size: 80%;
     padding: 5px;
 }
-.menu .donate{
+.donate{
     display: block;
     text-decoration: none;
     color: #fff;
@@ -194,7 +194,7 @@ nav .container{
     transition: 0.5s;
     font-size: 14px;
 }
-.menu .donate:hover{
+.donate:hover{
     background-color: transparent;
     color: #FD5A5A;
 }
@@ -1052,3 +1052,60 @@ footer .title-1 .span-1 a:hover{
   .contact-bot-2{
       display: none;
   }
+
+
+
+  /*About*/
+  /*topbar*/
+  
+  .contact-1{
+      flex: 3;
+      
+  }
+  
+  .md-form{
+      margin: 0px !important;
+  }
+  .cart a i{
+    color: black;
+  }
+/*banner*/
+.banner-about{
+    background-image: url(../img/BG-BL-About.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0px 0px 0px;
+}
+.content-banner-about h1{
+    padding-bottom: 80px;
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+
+}
+.btn-about p{
+    padding: 10px 0px;
+    margin: 0;
+    
+}
+.btn-about p a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-about{
+    width: 15%;
+    margin: 0 auto;
+    background-color:#FF6464 ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: 0.5s;
+}
+.btn-about:hover{
+    background-color: transparent;
+    border: 1px solid #FF6464;
+}
+.btn-about:hover p a{
+    color:#FF6464 ;
+
+}
