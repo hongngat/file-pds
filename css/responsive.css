@@ -1,3 +1,12 @@
+@media only screen and (max-width:1277px){
+    .bg-faq{
+        padding: 50px;
+        background-image: none;
+    }
+    .content-FAQ{
+        padding: 0px !important;
+    }
+}
 @media only screen and (max-width:1200px){
     .menu ul li a{
         padding: 0px 15px 0px 15px;
@@ -18,6 +27,20 @@
     }
     .pst-sub{
         width: 40%;
+    }
+    .frame .logo-cate-1 img{
+        width: 25%;
+    }
+    .frame .text-center h4{
+        padding:0px 10px 20px 10px;
+        margin: 0;
+    }
+    .frame .text-center p{
+        padding:0px 20px 30px 10px;
+        margin: 0;
+    }
+    .frame .text-center .read{
+        margin-bottom: 50px;
     }
 }
 @media only screen and (max-width:544px){
@@ -138,6 +161,53 @@
     }
     .title-become h1{
         font-size: 35px;
+    }
+    .title-about-1 p {
+        font-size: 15px;
+    }
+    .title-about-1 h2{
+        font-size: 20px;
+        
+    }
+    
+    .title-about-2 h2{
+        font-size: 30px;
+    }
+    .text-ab-1 i{
+        font-size: 14px;
+    }
+    .text-ab-1 p{
+        font-size: 10px;
+    }
+    .icon-ab img{
+        width: 15%;
+    }
+    .icon-ab .text-icon{
+        font-size: 15px;
+    }
+    .icon-ab p{
+        font-size:10px ;
+    }
+    
+    .frame .logo-cate-1{
+        padding: 20px;
+    }
+    .frame .text-center h4{
+        padding:0px 10px 10px 10px;
+        font-size: 20px;
+    }
+    .frame .text-center p{
+        padding:0px 20px 30px 10px;
+        font-size: 15px;
+    }
+    .frame .text-center .read{
+        margin-bottom: 50px;
+    }
+    .bgr-1 .frame-ab{
+        height: 400px;
+    }
+    .bgr-frame-3::before,.bgr-frame-4::before,.bgr-frame-5::before{
+        height: 400px;
     }
 }
 @media only screen and (max-width:1200px){
@@ -277,7 +347,56 @@
     .btn-about{
         width: 30%;
     }
-    
+    .img-ab-2{
+        display: block;
+    }
+    .img-ab-1{
+        display: none;
+    }
+    .title-about-1 p {
+        font-size: 16px;
+    }
+    .title-about-1 h2{
+        font-size: 29px;
+    }
+    .text-ab-1 i{
+        font-size: 16px;
+    }
+    .text-ab-1 p{
+        font-size: 13px;
+    }
+    .icon-ab .text-icon{
+        font-size: 16px;
+    }
+    .icon-ab p{
+        font-size:13px ;
+    }
+    .frame .logo-cate-1{
+        padding: 40px;
+    }
+    .frame .logo-cate-1 img{
+        width: 15%;
+    }
+    .frame .text-center h4{
+        padding:0px 10px 20px 10px;
+        font-size: 30px;
+    }
+    .frame .text-center p{
+        padding:0px 20px 30px 10px;
+        font-size: 18px;
+    }
+    .frame .text-center .read {
+        padding: 20px;
+    }
+    .bgr-1 .frame-ab{
+        height: 500px;
+    }
+    .bgr-frame-3::before,.bgr-frame-4::before,.bgr-frame-5::before{
+        height: 500px;
+    }
+    .img-2{
+        display: none;
+    }
 }
 @media only screen and (max-width:578px){
     
@@ -459,6 +578,9 @@
     .flex-money {
         padding:0px 12px;
         margin-left: 5%;
+    }
+    .frame .text-center .read a {
+    font-size: 13px;       
     }
 }
 @media only screen and (max-width:320px){
