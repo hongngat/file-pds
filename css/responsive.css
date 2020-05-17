@@ -203,6 +203,15 @@
     .bgr-frame-3::before,.bgr-frame-4::before,.bgr-frame-5::before{
         height: 400px;
     }
+    .skill-per-1::before {
+        font-size: 20px;
+      }
+      .goal-cause .text-money,.raise-cause .text-money{
+          font-size: 10px;
+      }
+      .text-causes p{
+          font-size: 15px;
+      }
 }
 @media only screen and (max-width:1200px){
     .donate{
@@ -387,6 +396,18 @@
     .img-2{
         display: none;
     }
+    .skill-per-1::before {
+        font-size: 30px;
+      }
+      .goal-cause .text-money,.raise-cause .text-money{
+          font-size: 14px;
+      }
+      .text-causes p{
+          font-size: 18px;
+      }
+      .skill-per-1{
+          padding-left: 73px;
+      }
 }
 @media only screen and (max-width:578px){
     

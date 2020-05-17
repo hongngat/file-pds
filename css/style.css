@@ -362,7 +362,7 @@ nav .container{
 .cause .container .row .col{
     padding:30px 10px 20px 10px;
 }
-.cause .container .row .content-cause img{
+.container .row .content-cause img{
     width: 100%;
 }
 /*skill bar*/
@@ -476,6 +476,7 @@ nav .container{
     width: 50%;
     margin-left: 22.5%;
     transition: 0.5s;
+    text-align: center;
 }
 .read a{
     text-decoration: none;
@@ -512,6 +513,61 @@ nav .container{
     border-bottom: 5px solid #0FC392;
 }
 /*cause-3*/
+.read-1:hover a{
+    color:#FD5A5A ;
+}
+.read-1:hover{
+    background-color: transparent;
+    border: 1px solid #FD5A5A;
+}
+.read-2:hover a{
+    color: #0FC392;
+}
+.read-2:hover{
+    background-color: transparent;
+    border: 1px solid #0FC392;
+}
+.read-2-1:hover a{
+    color: #fff;
+}
+.read-3:hover a{
+    color: #F37A32;
+}
+.read-3:hover{
+    background-color: transparent;
+    border: 1px solid #F37A32;
+}
+.read-4:hover a{
+    color: #BB5BD6;
+}
+.read-4:hover{
+    background-color: transparent;
+    border: 1px solid #BB5BD6;
+}
+.read-5:hover a{
+    color: #32B1F3;
+}
+.read-5:hover{
+    background-color: transparent;
+    border: 1px solid #32B1F3;
+}
+.read-6:hover a{
+    color: #F87055;
+}
+.read-6:hover{
+    background-color: transparent;
+    border: 1px solid #F87055;
+}
+.read-4{
+    background-color: #BB5BD6;
+    
+}
+.read-5{
+    background-color: #32B1F3;
+}
+.read-6{
+    background-color: #F87055;
+}
 .read-3{
     background-color: #F37A32;
 }
@@ -572,30 +628,7 @@ nav .container{
 .frame .text-center .read{
     margin-bottom: 50px;
 }
-.read-1:hover a{
-    color:#FD5A5A ;
-}
-.read-1:hover{
-    background-color: transparent;
-    border: 1px solid #FD5A5A;
-}
-.read-2:hover a{
-    color: #0FC392;
-}
-.read-2:hover{
-    background-color: transparent;
-    border: 1px solid #0FC392;
-}
-.read-2-1:hover a{
-    color: #fff;
-}
-.read-3:hover a{
-    color: #F37A32;
-}
-.read-3:hover{
-    background-color: transparent;
-    border: 1px solid #F37A32;
-}
+
 
 /*testimonials*/
 .testimonials{
@@ -1390,4 +1423,107 @@ figure.snip1205.navy i {
 }
 .icon-email i{
     color: #FD5A5A !important;
+}
+
+
+/*Cause-page*/
+.Causes-1{
+    padding: 90px 0px;
+}
+.Causes-2{
+    padding: 0px 0px 90px 0px;
+}
+.content-cause-1 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text-causes{
+    height: 270px;
+}
+.Causes-1 .text-causes{
+    border-left: 0.3px solid #A8A8A8;
+    border-right: 0.3px solid #A8A8A8;
+    border-bottom: 0.3px solid #A8A8A8;
+    padding: 0px 20px 20px 20px;
+}
+.Causes-2 .text-causes{
+    border-left: 0.3px solid #A8A8A8;
+    border-right: 0.3px solid #A8A8A8;
+    border-bottom: 0.3px solid #A8A8A8;
+    padding: 0px 20px 20px 20px;
+}
+.skills {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .skill-bar {
+    height: 15px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  .skill-per {
+    height: 15px;
+    background-color: #f05a48;
+    border-radius: 8px;
+    width: 0;
+    position: relative;
+    transition: 1s linear;
+  }
+  .skill-per-1::before {
+    content: attr(per);
+    padding: 4px 6px;
+    color: #000000;
+    font-size: 32px;
+    border-radius: 4px;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  
+  .price-content{
+      padding: 20px 0px;
+  }
+  .goal-cause{
+      padding: 5px 0px;
+  }
+  .raise-cause{
+      padding: 5px 0px;
+  }
+  .text-causes p{
+      padding: 20px 0px;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      margin: 0;
+
+  }
+
+  /*pagination*/
+  .pagination{
+      padding: 0px 0px 90px 0px;
+      
+  }
+  .pagination .container {
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    display: flex;
+  }
+  .pagination .container div a{
+      padding: 10px 15px ;
+      border: 1px solid #A8A8A8;
+  }
+  .pagination .container div{
+      padding: 5px;
+  }
+  .next a{
+      background-color: #FD5A5A;
+      color: #fff;
+  }
+  .next a:hover{
+    background-color: transparent;
+    color:#FD5A5A ;
+    
+}
+.pagination .container .next a:hover{
+    border: 1px solid #FD5A5A;
 }
