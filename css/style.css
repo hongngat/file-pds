@@ -1479,9 +1479,15 @@ figure.snip1205.navy i {
     font-family: 'Playfair Display', serif;
     
   }
-  
+  .skill-per-1{
+      padding-right: 30px !important;
+  }
   .price-content{
       padding: 20px 0px;
+      display: flex;
+  }
+  .price-content-1{
+      flex: 1;
   }
   .goal-cause{
       padding: 5px 0px;
