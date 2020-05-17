@@ -1579,6 +1579,9 @@ figure.snip1205.navy i {
 .title-blog-2{
     background-color: #0FC392;
 }
+.title-blog p{
+    text-transform: uppercase;
+}
 .title-blog-3{
     background-color: #F37A32;
 }
