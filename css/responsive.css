@@ -17,11 +17,7 @@
     
 }
 @media only screen and (max-width:1199px){
-    .skill-bars li .progress span{
-        top: 250px;
-        font-size: 13px;
-        padding: 5px 5px;
-    }
+    
     .pst-sub a{
         font-size: 12px;
     }
@@ -120,9 +116,7 @@
         font-size: 13px;
         margin-top: 10px;
     }
-    .skill-bars li .progress span{
-        top: 200px;
-    }
+    
     .read{
         padding: 5px 10px;
         width: 70%;
@@ -239,11 +233,7 @@
     .main-wrapper p{
         margin-top: 20px;
     }
-    .skill-bars li .progress span{
-        top: 399px;
-        font-size: 13px;
-        padding: 5px 5px;
-    }
+    
     .read{
         width: 40%;
         margin-left: 30%;
@@ -433,11 +423,7 @@
         padding:0px 16px;
         margin-left: 5%;
     }
-    .skill-bars li .progress span{
-        top: 375px;
-        font-size: 13px;
-        padding: 5px 5px;
-    }
+    
     .title h1{
         font-size: 35px;
     }
@@ -464,9 +450,7 @@
     }
 }
 @media only screen and (max-width:490px){
-    .skill-bars li .progress span{
-        top: 360px;
-    }
+    
     
     
 }
@@ -474,11 +458,7 @@
     .donate{
         width: 35%;
     }
-    .skill-bars li .progress span{
-        top: 345px;
-        font-size: 15px;
-        padding: 5px 5px;
-    }
+    
     
     .pst-sub{
         width: 45%;
@@ -499,27 +479,18 @@
     .donate{
         width: 40%;
     }
-    .skill-bars li .progress span{
-        top: 320px;
-        
-    }
+    
     
     
     
 }
 @media only screen and (max-width:410px){
     
-    .skill-bars li .progress span{
-        top: 305px;
-        
-    }
+    
 }
 @media only screen and (max-width:375px){
     
-    .skill-bars li .progress span{
-        top: 285px;
-        
-    }
+    
     .BG{
         position: absolute;
         top:0;
@@ -566,10 +537,7 @@
 }
 @media only screen and (max-width:340px){
     
-    .skill-bars li .progress span{
-        top: 260px;
-        
-    }
+   
 }
 @media only screen and (max-width:384px){
     .donate{
