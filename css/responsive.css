@@ -212,6 +212,9 @@
       .text-causes p{
           font-size: 15px;
       }
+      .snip02 img{
+        height: 300px;
+    }
 }
 @media only screen and (max-width:1200px){
     .donate{
@@ -408,6 +411,9 @@
       .skill-per-1{
           padding-left: 73px;
       }
+      .snip02 img{
+        height: 250px;
+    }
 }
 @media only screen and (max-width:578px){
     
@@ -432,7 +438,9 @@
     .title-footer,.list-footer{
         text-align: center;
     }
-    
+    .snip02 img{
+        height: 400px;
+    }
 }
 @media only screen and (max-width:563px){
     .donate{
@@ -494,6 +502,9 @@
       }
       .btn-about{
         width: 38%;
+    }
+    .tabs-nav__item a{
+        font-size: 10px;
     }
 }
 @media only screen and (max-width:431px){
