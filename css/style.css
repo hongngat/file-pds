@@ -742,12 +742,12 @@ nav .container{
 .date p{
     margin: 0;
 }
-.date .number{
+.number{
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color: #FFF;
 }
-.date .month{
+.month{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 10px;
     padding-bottom: 10px;
@@ -1893,4 +1893,67 @@ figure.snip1205.navy i {
     padding: 20px 0px 0px 0px;
     box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     height: 200px;
+}
+
+/*page events*/
+.Events{
+    padding: 90px 0px;
+}
+.event-1 img{
+    width: 100%;
+    height: 300px;
+}
+.content-events{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 4px;
+    box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.date-ev{
+    background-color: #FD5A5A;
+    padding: -10px 10px 10px 10px;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    flex: 5;
+}
+.date-ev .number{
+    font-size: 30px;
+}
+.date-ev p{
+    margin: 0;
+}
+.flex-ct-ev{
+    display: flex;
+}
+.text-ct-ev{
+    display: flex;
+    padding: 10px;
+}
+.flex-meta{
+    display: flex;
+}
+.fs13 i,.fs13 p{
+    font-size: 13px;
+    margin: 0;
+}
+.time-ev{
+    padding-right: 10px;
+}
+.fs13 i{
+    padding: 3px 5px 2px 0px;
+}
+.title-ev{
+    padding: 10px;
+}
+.title-ev p{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+.row-ev{
+    padding-bottom: 100px;
 }
