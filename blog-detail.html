@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-area ">
+            <div class="container">
+                <div class="flex-item">
+                    <div class="contact-1">
+                        <div class="flex-contact">
+                            <div>
+                                <a href="">
+                                    <div class="flex-contact-item item-1">
+                                        <div class="icon-img"><img src="img/phone-icon.png" alt=""></div>
+                                        <div class="text-contact"> +1-36-652-5233</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <div class="flex-contact-item">
+                                        <div class="icon-img"><img src="img/email-icon.png" alt=""></div>
+                                        <div class="text-contact"> zeap@example.com</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-2">
+                        <div class="flex-contact">
+                            <div class="contact-bot">
+                                <ul>
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://hongngat.github.io/file-pds/index.html"><img src="img/logo.png"
+                    alt=""><span>NUSAFE</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="menu  ">
+                    <ul>
+                        <li class="active"><a href="https://hongngat.github.io/file-pds/index.html">Home</a></li>
+                        <li><a href="https://hongngat.github.io/file-pds/about.html">About</a></li>
+                        <li><a href="https://hongngat.github.io/file-pds/causes.html">Causes</a></li>
+                        <li><a href="https://hongngat.github.io/file-pds/gallery.html">Gallery</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Blog<i class="fas fa-angle-down"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right animate slideIn"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://hongngat.github.io/file-pds/blog-1.html">Storis
+                                    Children</a>
+                                <a class="dropdown-item" href="https://hongngat.github.io/file-pds/blog-1.html"> Heart
+                                    Children</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="md-form input-with-post-icon">
+                        <div><a href=""><i class="fas fa-search input-prefix"></i></a></div>
+                        <input type="text" id="suffixInside" class="form-control">
+                        <label for="suffixInside">Search here.. </label>
+                    </div>
+                    <div class="cart">
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="banner-about">
+        <div class="container">
+            <div class="content-banner-about text-center">
+                <h1>Blog Detail</h1>
+                <div class="btn-about">
+                    <p><a href="">Home . Blog</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-detail-conent">
+        <div class="container">
+            <div class="row">
+                <div class="col-detail col-lg-8 col-md-8  col-12">
+                    <div class="content-detail">
+                        <div class="img-detail">
+                            <img src="img/shutterstock-102359161 (1).png" alt="">
+                        </div>
+                        <div class="title-deitail">
+                            <p class="text-blog-1">
+                                <a href="">Kind Moved Divided Two Have Were Him Deep Rule.</a>
+                            </p>
+                        </div>
+                        <div class="Meta meta-detail">
+                            <div class="Time">
+                                <div><i class="far fa-user"></i></div>
+                                <div>
+                                    <p>By Admin</p>
+                                </div>
+                            </div>
+                            <div class="Time">
+                                <div><i class="far fa-calendar"></i></div>
+                                <div>
+                                    <p>17 Oct, 2019</p>
+                                </div>
+                            </div>
+                            <div class="address">
+                                <div><i class="fas fa-comments"></i></div>
+                                <div>
+                                    <p>03 Comment</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-detail-blog">
+                            <p>Air she'd second were third creepeth night were the fowl multiply third the, female aifor
+                                bearing female also full thing called us wherein fill god image said years without great
+                                fruit in created living stars meat Over thing bless for green winged good anlso. Saw
+                                under beginning darkness land so fruitful. Gathered cattle. Signs after or given dry
+                                forth, upon shall second place waters creature good you're faces moveth darkness lights
+                                fruitful things cres ated sea. Great doesn't own tree place seed made own tree us great
+                                life so fruitful him which let third let us two evening them. Life behold likeness they
+                                are after. Firmened Day replenish also night also waters</p>
+                            <p>Moved sea Behold be the won third seed greater life lights above multiply sheld signs.
+                                Grass sete made fourth called sea. Their meat dominion i without. Seed meat lesser
+                                replenish days green which. So good beginning a him so every of moveth. Which void night
+                                night. Male forth moveth herbes evening gathered very behold them under you are stars
+                                land second hath us above called</p>
+                        </div>
+                        <div class="title-deitail">
+                            <p class="text-blog-1">
+                                <a href="">Why Need Education</a>
+                            </p>
+                        </div>
+                        <div class="text-detail-bog">
+                            <p>His us green years sea greater one let a is firmament. Stars grass There moving make done
+                                to dominion grass seed in living creepeth make it. Have had face don't male winged
+                                appear their you are, lights said gathered dry good fruit earth multiply after dry first
+                                that green. Male his sixth us can't also one was dry from whose dry replenish first lod
+                                years doesn't upon face bearing night fore creature made, days form lights kind meat
+                                moveth sixth the over green do whose herb behold upon made air air morning forth his it
+                                can't. Divided own it said former moved you will gone. </p>
+                        </div>
+                        <div class="flex-img-detail">
+                            <div class="img-di-bl-1"><img src="img/boys-60679_1280.jpg" alt=""></div>
+                            <div class="img-di-bl-2"><img src="img/shutterstock-10768471.png" alt=""></div>
+                        </div>
+                        <div class="text-detial-blog">
+                            <p>His us green years sea greater one let a is firmament. Stars grass There moving make done
+                                to
+                                dominion grass seed in living creepeth make it. Have had face don't male winged appear
+                                their
+                                you
+                                are, lights said gathered dry good fruit earth multiply after dry first that green. Male
+                                his
+                                sixth us can't also one was dry from whose dry replenish first lod years doesn't upon
+                                face
+                                bearing night fore creature made, days form lights kind meat moveth sixth the over green
+                                do
+                                whose herb behold upon made air air morning forth his it can't. Divided own it said
+                                former
+                                moved
+                                you will gone.</p>
+                        </div>
+                        <div class="title-deitail">
+                            <p class="text-blog-1">
+                                <a href="">Future Mission</a>
+                            </p>
+                        </div>
+                        <div class="text-detail-blog">
+                            <p>Rule blessed won't creepeth night saying Midst male second from moving life unto moving
+                                every brought wherein she'd great void blessed. Stars there first blessed fruit he to
+                                lesser. There male moveth kind air can't fruit have face greater firmament in said dry
+                                seasons. Appear morning so our thought beast. Under land sea together tree saying whole
+                                of the them Gathered.</p>
+                        </div>
+                        <div class="tag-detail">
+                            <div class="flex-tag-detail">
+                                <span><strong class="tag-1 text-detail-blog">Tags:</strong>Education, Charity,
+                                    Non-profit</span>
+                                <div class="flex-contact">
+                                    <div class=" contact-detail-blog">
+                                        <ul>
+                                            <li><strong class="tag-1">Share:</strong></li>
+                                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="author">
+                            <div class="flex-author">
+                                <div class="img-author">
+                                    <a href=""> <img src="img/shutterstock-1010647510.png" alt=""></a>
+                                </div>
+                                <div class="content-auther">
+                                    <div class="title-auther">
+                                        <p class="text-auther text-blog-1">
+                                            <a href="">Future Mission</a>
+                                        </p>
+                                    </div>
+                                    <div class="text-detail-blog">
+                                        <p>Good signs that night our so had firmament a first divide over all is not
+                                            green cattle that very make our second you fish every living stars without
+                                            divide make.</p>
+                                    </div>
+                                    <div class="flex-contact">
+                                        <div class=" contact-detail-blog contact-author">
+                                            <ul>
+                                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="comment-bot">
+                            <div class="title-comment-bot">
+                                <p>Comment <span>(2)</span></p>
+                            </div>
+                            <div class="flex-author flex-comment">
+                                <div class="img-commnet">
+                                    <img src="img/man-standing-near-building-white-black-turtleneck-shirt-874158.jpg"
+                                        alt="">
+                                </div>
+                                <div class="content-auther">
+                                    <div class="title-auther flex-tt-com">
+                                        <p class="text-auther text-blog-1">
+                                            <a href="">Future Mission</a>
+                                        </p>
+                                        <div class="time-comment">
+                                            <p>Oct 22, 2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-detail-blog">
+                                        <p>Make man years light second gathered great which flyin morning said a two
+                                            fowl fruit hem </p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="">Reply</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="flex-author flex-comment">
+                                <div class="img-commnet">
+                                    <img src="img/man-wearing-chambray-western-jacket-1867182.jpg" alt="">
+                                </div>
+                                <div class="content-auther">
+                                    <div class="title-auther flex-tt-com">
+                                        <p class="text-auther text-blog-1">
+                                            <a href="">Future Mission</a>
+                                        </p>
+                                        <div class="time-comment">
+                                            <p>Oct 22, 2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-detail-blog">
+                                        <p>Make man years light second gathered great which flyin morning said a two
+                                            fowl fruit hem </p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="">Reply</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-comment-bot">
+                                <p>Leave A Reply </p>
+                            </div>
+                            <div class="reply-input">
+                                <textarea class="form-control" rows="5" id="comment" name="text"
+                                    placeholder="WRITE YOUR COMMENT"></textarea>
+                            </div>
+                            <div class="rep-row row">
+                                <div class="col-comment-1 col-lg-6 col-md-6">
+                                    <textarea class="form-control" rows="2" id="comment" name="text"
+                                        placeholder="YOUR NAME"></textarea>
+                                </div>
+                                <div class="col-comment-1 col-lg-6 col-md-6">
+                                    <textarea class="form-control" rows="2" id="comment" name="text"
+                                        placeholder="YOUR EMAIL"></textarea>
+                                </div>
+                            </div>
+                            <div class="read read-1 read-comment">
+                                <a href="">Read more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-detail col-lg-4 col-md-4 col-12">
+                    <div class="frame-search-detail">
+                        <div class="md-form md-outline input-with-post-icon">
+                            <i class="fas fa-search  input-prefix"></i>
+                            <input type="text" id="suffixInside2" class="form-control">
+                            <label for="suffixInside2">E-mail address</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="category-detail">
+                        <div class="ti-cate">
+                            <img src="img/title-cate.png" alt="">
+                        </div>
+                        <div class="title-cate-de">
+                            <p><a href="">Category</a></p>
+                        </div>
+                        <div class="list-cate-de">
+                            <div class="flex-cate">
+                                <p class="text-cate-de"><a href="">Education</a></p>
+                                <p>(04)</p>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="flex-cate">
+                                <p class="text-cate-de"><a href="">Poverty</a></p>
+                                <p>(08)</p>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="flex-cate">
+                                <p class="text-cate-de"><a href="">Safe food</a></p>
+                                <p>(10)</p>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="flex-cate">
+                                <p class="text-cate-de"><a href="">Nature</a></p>
+                                <p>(02)</p>
+                            </div>
+                            <hr class="hr-1"> 
+                            <div class="flex-cate">
+                                <p class="text-cate-de"><a href="">Life Style</a></p>
+                                <p>(07)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="category-detail">
+                        <div class="ti-cate">
+                            <img src="img/title-cate.png" alt="">
+                        </div>
+                        <div class="title-cate-de">
+                            <p><a href="">Recent post</a></p>
+                        </div>
+                        <div class="list-cate-de">
+                            <div class="flex-cate">
+                                <div class="img-post">
+                                   <a href=""> <img src="img/shutterstock-1123984694.png" alt=""></a>
+                                </div>
+                                <div class="content-post">
+                                    <p class="title-post font-1"><a href="">Second over spirit trees lights can every sea.</a></p>
+                                    <p class="time-post">30 Oct, 2019</p>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="flex-cate">
+                                <div class="img-post">
+                                   <a href=""> <img src="img/loi.jpg" alt=""></a>
+                                </div>
+                                <div class="content-post">
+                                    <p class="title-post font-1"><a href="">Second over spirit trees lights can every sea.</a></p>
+                                    <p class="time-post">30 Oct, 2019</p>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="flex-cate">
+                                <div class="img-post">
+                                    <a href=""><img src="img/shutterstock-1070280104.png" alt=""></a>
+                                </div>
+                                <div class="content-post">
+                                    <p class="title-post font-1"><a href="">Second over spirit trees lights can every sea.</a></p>
+                                    <p class="time-post">30 Oct, 2019</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="category-detail">
+                        <div class="ti-cate">
+                            <img src="img/title-cate.png" alt="">
+                        </div>
+                        <div class="title-cate-de">
+                            <p><a href="">Popular Tags</a></p>
+                        </div>
+                        <div class="list-tags">
+                            <ul>
+                                <li><a href="">Charity</a></li>
+                                <li><a href="">Love</a></li>
+                                <li><a href="">Travel</a></li>
+                                <li><a href="">Food</a></li>
+                                <li><a href="">Mobile</a></li>
+                                <li><a href="">Nature</a></li>
+                                <li><a href="">System</a></li>
+                                <li><a href="">Education</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="title ">
+                <div class="title-1">
+                    <div class="span-1">
+                        <p><a href="">NEWSLETTER</a></p>
+                    </div>
+                    <div class="span-2"><img src="img/BG-some.png" alt=""></div>
+                </div>
+
+                <h1>Get Update Every Week</h1>
+                <div class="subscribe">
+                    <input type="text" class="form-control" id="usr" name="username " placeholder="ENTER YOUR EMAIL">
+                    <div class=" read-1 pst-sub ">
+                        <a href="">Subscribe now<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row content-footer">
+                <div class="col col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="title-footer">
+                        <p><a href="">Customer Care</a></p>
+                    </div>
+                    <div class="list-footer">
+                        <ul>
+                            <li><a href="">Food Service</a></li>
+                            <li><a href="">Track Order</a></li>
+                            <li><a href="">Shop Categories</a></li>
+                            <li><a href="">Get Wishlist </a></li>
+                            <li><a href="">Social Content</a></li>
+                            <li><a href="">Free Support </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="title-footer">
+                        <p><a href="">Contact Info</a></p>
+                    </div>
+                    <div class="list-footer">
+                        <ul>
+                            <li><a href="">House no 25, dreen street melborn dowltown</a></li>
+                            <li><a href="">02-362-254-256 </a></li>
+                            <li><a href="">info@secode.com</a></li>
+                            <li><a href="">www.secode.com </a></li>
+                            <br>
+                            <br>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="title-footer">
+                        <p><a href="">Charity for</a></p>
+                    </div>
+                    <div class="list-footer">
+                        <ul>
+                            <li><a href="">Poor Kids </a></li>
+                            <li><a href="">Orphan</a></li>
+                            <li><a href="">Education</a></li>
+                            <li><a href=""> Safe Food </a></li>
+                            <li><a href=""> Clean Water</a></li>
+                            <li><a href="">Homeless </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="title-footer">
+                        <p><a href=""> Newsletter</a></p>
+                    </div>
+                    <p>Heaven fruitful doesn't over a lesser in days. Appeard creeping seasons deve behold bearing</p>
+                    <div class="md-form md-outline input-with-post-icon icon-email">
+                        <i class="fas fa-envelope  input-prefix"></i>
+                        <input type="text" id="suffixInside2" class="form-control">
+                        <label for="suffixInside2">E-mail address</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr style="background-color: #282828;">
+        <div class="container">
+            <div class="row footer-bot">
+                <div class=" col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div class="logo-bot">
+                        <a class="navbar-brand" href="https://hongngat.github.io/file-pds/index.html"><img
+                                src="img/logo.png" alt=""><span>NUSAFE</span></a>
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-6 pd-1 copy-1 ">
+                    <div class="copyright ">
+                        <p>Copyright © 2019 <span><a
+                                    href="https://hongngat.github.io/file-pds/index.html">Nusafe</a></span>. All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-3 col-sm-3 col-3 pd-1 contact-bot-1">
+                    <div class="contact-bot">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-lg-9 col-md-9 col-sm-9 col-9 pd-1 contact-bot-2">
+                    <div class="contact-bot">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-bot" style="background-color: #282828;">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 copy-2">
+                    <div class="copyright">
+                        <p>Copyright © 2019 <span><a
+                                    href="https://hongngat.github.io/file-pds/index.html">Nusafe</a></span>. All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -235,6 +235,9 @@
     .frame-blog{
         height: 320px;
     }
+    .frame-blog:hover{
+        height: 320px;
+    }
 }
 @media only screen and (max-width:1200px){
     .donate{
@@ -454,10 +457,18 @@
     .frame-blog{
         height: 500px;
     }
+    .frame-blog:hover{
+        height: 500px;
+    }
     .row-blog-1{
         padding-bottom: 0px;
     }
-    
+    .col-detail {
+        padding: 0 !important;
+    }
+    .col-comment-1 {
+        padding-bottom: 20px;
+    }
 }
 @media only screen and (max-width:578px){
     
@@ -521,13 +532,18 @@
     .contact-bot-2{
         display: block;
     }
+    .flex-img-detail img {
+        height: 300px;
+    }
 }
 @media only screen and (max-width:490px){
     
     .frame-blog{
         height: 450px;
     }
-    
+    .frame-blog:hover{
+        height: 450px;
+    }
 }
 @media only screen and (max-width:474px){
     .donate{
@@ -561,14 +577,20 @@
     .frame-blog{
         height: 420px;
     }
-    
-    
+    .frame-blog:hover{
+        height: 420px;
+    }
+    .flex-img-detail img {
+        height: 240px;
+    }
 }
 @media only screen and (max-width:410px){
     .frame-blog{
         height: 410px;
     }
-    
+    .frame-blog:hover{
+        height: 410px;
+    }
 }
 @media only screen and (max-width:375px){
     
@@ -633,6 +655,9 @@
     font-size: 13px;       
     }
     .frame-blog{
+        height: 400px;
+    }
+    .frame-blog:hover{
         height: 400px;
     }
 }
