@@ -311,6 +311,7 @@ nav .container{
 }
 .title-1 .span-1{
     position: relative;
+    text-transform: uppercase;
 }
 
 .title{
@@ -1821,4 +1822,75 @@ figure.snip1205.navy i {
 .list-tags ul li:hover{
    
     background-color:#FD5A5A ;
+}
+
+
+/*page contact*/
+.contact-info{
+    padding-bottom: 90px;
+}
+.contact-input{
+    padding: 90px 0px;
+}
+.img-contact img{
+    width: 100%;
+}
+.row-contact{
+    padding: 30px 0px;
+}
+.form-f1 label{
+    font-weight: 400;
+}
+.content-info img{
+    width: 100%;
+}
+.content-info-1{
+    background-color: #FD5A5A;
+}
+.content-info-2{
+    background-color: #0FC392;
+}
+.content-info-3{
+    background-color: #32B1F3;
+}
+.content-info-4{
+    background-color: #F37A32;
+}
+.content-info{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.content-info i{
+    color: #fff;
+    font-size: 50px;
+}
+.content-info p{
+    padding-top: 10px;
+    margin: 0;
+    color: #fff;
+    
+}
+.title-info a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+.title-info a:hover{
+    color: #fff;
+    
+   
+}
+.title-info{
+    font-size: 20px;
+}
+.text-if{
+    font-size: 12px;
+}
+.content-info:hover{
+    border-radius: 4px;
+    padding: 20px 0px 0px 0px;
+    box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 200px;
 }

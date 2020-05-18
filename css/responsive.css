@@ -238,6 +238,25 @@
     .frame-blog:hover{
         height: 320px;
     }
+    .img-contact img{
+        height: 370px;
+    }
+    .content-info{
+        width: 150px;
+        height: 150px;
+    }
+    .content-info i{
+        font-size: 30px;
+    }
+    .title-info{
+        font-size: 15px;
+    }
+    .text-if{
+        font-size: 9px;
+    }
+    .content-info:hover{
+        height: 150px;
+    }
 }
 @media only screen and (max-width:1200px){
     .donate{
@@ -463,11 +482,34 @@
     .row-blog-1{
         padding-bottom: 0px;
     }
-    .col-detail {
-        padding: 0 !important;
-    }
+    
     .col-comment-1 {
         padding-bottom: 20px;
+    }
+    .col-f2{
+        padding: 0px 15px;
+    }
+    .img-contact img{
+        height: 474px;
+    }
+    .content-info{
+        width: 200px;
+        height: 200px;
+    }
+    .content-info i{
+        font-size: 40px;
+    }
+    .title-info{
+        font-size: 20px;
+    }
+    .text-if{
+        font-size: 12px;
+    }
+    .content-info:hover{
+        height: 200px;
+    }
+    .col-in-1 {
+        padding-bottom: 30px;
     }
 }
 @media only screen and (max-width:578px){
