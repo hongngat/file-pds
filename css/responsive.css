@@ -38,6 +38,9 @@
     .frame .text-center .read{
         margin-bottom: 50px;
     }
+    .BG-white{
+        height: 250px;
+    }
 }
 @media only screen and (max-width:544px){
     .flex-contact-item .text-contact{
@@ -278,7 +281,9 @@
     .title-ev p{
         font-size: 14px;
     }
-    
+    .BG-white{
+        height: 150px;
+    }
 }
 @media only screen and (max-width:1200px){
     .donate{
@@ -318,7 +323,7 @@
         font-size: 15px;
     }
     .title h1{
-        font-size: 50px;
+        font-size: 35px;
     }
     .text-content p{
         font-size: 15px;
@@ -560,6 +565,51 @@
     .col-ev-1{
         padding-bottom: 70px;
     }
+    .Best-Volunteer{
+        padding-top: 570px;
+        
+    }
+    .row-Best-Volunteer{
+        top:200px ;
+    }
+    .img-3 img{
+        height: 400px;
+    }
+    .text-best-hover strong a{
+        font-size: 13px ;
+    }
+    .text-best-hover p{
+        font-size: 10px;
+    }
+    .flex-best-hover ul li i{
+        font-size: 12px;
+    }
+    
+    .frame-team-2{
+        padding: 5px;
+    }
+    .BG-white{
+        height: 0px;
+    }
+    .flex-best-hover{
+        font-size: 13px;
+    }
+    .row-Best-Volunteer{
+        position: relative;
+        top:0px ;
+    }
+    .Best-Volunteer .container{
+        height: 380px;
+    }
+    .title-1 .span-1{
+        font-size: 13px;
+    }
+    .title-1 .span-3 img{
+        height: 50px;
+    }
+    .title-1{
+        padding: 20px;
+    }
 }
 @media only screen and (max-width:578px){
     
@@ -587,6 +637,33 @@
     .snip02 img{
         height: 400px;
     }
+    .Best-Volunteer{
+        padding-top: 700px;
+        
+    }
+    
+    .text-best-hover strong a{
+        font-size: 9px ;
+    }
+    .text-best-hover p{
+        font-size: 7px;
+    }
+    .flex-best-hover ul li i{
+        font-size:8px;
+        
+    }
+    .flex-best-hover ul li{
+        display: inline-block;
+    }
+    .flex-best-hover{
+        display: block;
+    }
+    .frame-team-2{
+        font-size: 13px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width:563px){
     .donate{
@@ -599,9 +676,7 @@
         margin-left: 5%;
     }
     
-    .title h1{
-        font-size: 35px;
-    }
+    
     .flex-money .text-money{
         font-size: 13px;
     }
@@ -696,6 +771,12 @@
     .flex-img-detail img {
         height: 240px;
     }
+    .frame-team-2{
+        display: none;
+    }
+    .Best-Volunteer .container{
+        height: 300px;
+    }
 }
 @media only screen and (max-width:410px){
     .frame-blog{
@@ -703,6 +784,9 @@
     }
     .frame-blog:hover{
         height: 410px;
+    }
+    .Best-Volunteer .container{
+        height: 270px;
     }
 }
 @media only screen and (max-width:375px){
@@ -745,6 +829,9 @@
     }
     .btn-about{
         width: 45%;
+    }
+    .Best-Volunteer .container{
+        height: 240px;
     }
 }
 @media only screen and (max-width:370px){

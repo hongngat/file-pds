@@ -796,6 +796,7 @@ nav .container{
 }
 .content-become{
     padding: 50px 50px !important;
+    
 }
 .title-become p{
     border-left: 2px solid black;
@@ -904,9 +905,10 @@ nav .container{
 .list-icon-team a i{
     color: #FFF;
 }
-.frame-team-1{
+.frame-team-color{
     background-color: #FD5A5A;
     z-index: 1;
+    
 }
 .frame-team-1{
     position: absolute;
@@ -1956,4 +1958,99 @@ figure.snip1205.navy i {
 }
 .row-ev{
     padding-bottom: 100px;
+}
+/*page become volunteer*/
+.Requirement{
+    padding: 60px 0px;
+   
+}
+
+.img-Requirement img{
+    width: 100%;
+}
+.text-detail-blog span i{
+    padding: 5px;
+    background-color:#FD6262 ;
+    color: #fff;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.img-become img{
+    width: 100%;
+}
+.img-3 img{
+    height: 560px;
+}
+.bg-wf{
+    background-color: #fff;
+}
+.frame-Volunteer-Field{
+    border-radius: 4px;
+    padding: 0px;
+    box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.col-Volunteer-Field{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.Volunteer-Field .container{
+    position: relative;
+    height: 350px;
+}
+.row-Volunteer-Field{
+    position: absolute;
+    top:0;
+    left: 15px;
+}
+.Best-Volunteer{
+    padding-top: 270px;
+    background-image: url(../img/BG-best.png);
+    
+}
+.Best-Volunteer .container{
+    position: relative;
+    height: 450px;
+}
+.img-Best-Volunteer img{
+    width: 100%;
+}
+.img-Best-Volunteer{
+    padding: 0px;
+}
+.flex-best-hover{
+    display: flex;
+}
+.text-best-hover{
+    flex: 0.8;
+}
+.frame-team-2{
+    position: absolute;
+    top: 73%;
+    padding: 20px;
+    left: 10%;
+}
+.flex-best-hover ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.text-best-hover p,.text-best-hover strong a{
+    color: #fff;
+}
+.flex-best-hover ul li i{
+    color: #fff;
+}
+.flex-best-hover ul li:hover i{
+    color: black;
+}
+
+.BG-white{
+    background-color: #fff;
+    height: 330px;
+}
+.row-Best-Volunteer{
+    position: absolute;
+    top:250px ;
+    left: 15;
 }
